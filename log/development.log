@@ -334,3 +334,29 @@ Processing by SearchesController#index as HTML
 Completed 204 No Content in 6492ms (ActiveRecord: 0.0ms | Allocations: 26893)
 
 
+Started GET "/" for ::1 at 2019-09-09 15:06:59 -0400
+Processing by SearchesController#index as HTML
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 81)
+
+
+Started GET "/" for ::1 at 2019-09-09 15:08:48 -0400
+Processing by SearchesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 32)
+
+
+Started GET "/?fake=true" for ::1 at 2019-09-09 15:09:42 -0400
+Processing by SearchesController#index as HTML
+  Parameters: {"fake"=>"true"}
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 32)
+
+
+Started GET "/" for ::1 at 2019-09-09 15:10:24 -0400
+Processing by SearchesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 30)
+
+
+Started GET "/" for ::1 at 2019-09-09 15:10:56 -0400
+Processing by SearchesController#index as HTML
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 81)
+
+
