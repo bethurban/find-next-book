@@ -1,0 +1,2 @@
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /Users/elizabethurban/.rvm/gems/ruby-2.5.3/bin/rake:23)
