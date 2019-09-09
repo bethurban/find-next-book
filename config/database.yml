@@ -23,13 +23,13 @@ default: &default
 
 development:
   <<: *default
-  database: find_next_book_api_development
+  database: find_next_book_development
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
   # When left blank, postgres will use the default role. This is
   # the same name as the operating system user that initialized the database.
-  #username: find_next_book_api
+  #username: find_next_book
 
   # The password associated with the postgres role (username).
   #password:
@@ -57,7 +57,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: find_next_book_api_test
+  database: find_next_book_test
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: find_next_book_api_production
-  username: find_next_book_api
-  password: <%= ENV['FIND_NEXT_BOOK_API_DATABASE_PASSWORD'] %>
+  database: find_next_book_production
+  username: find_next_book
+  password: <%= ENV['FIND_NEXT_BOOK_DATABASE_PASSWORD'] %>
