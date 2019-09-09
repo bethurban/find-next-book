@@ -12,6 +12,12 @@
 3. The similar books page will list similar books found by the API with a link
   to each book's Goodreads page.
 
+## Routes
+
+1. searches - only :index and :create (:index will be home page, :create will be
+  search results page)
+2. books - only :index (similar books page)
+
 ## Models
 
 1. Search
